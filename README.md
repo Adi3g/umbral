@@ -27,7 +27,7 @@ shared {
 }
 
 # Python imports
-python_imports {
+python::pckages {
     import numpy as np
 }
 
@@ -38,7 +38,7 @@ python {
 }
 
 # JavaScript imports
-javascript_imports {
+javascript::pckages {
     const fs = require('fs');
 }
 
@@ -49,7 +49,7 @@ javascript {
 }
 
 # TypeScript imports
-typescript_imports {
+typescript::pckages {
     import { format } from 'date-fns';
 }
 
